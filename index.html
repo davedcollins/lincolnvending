@@ -221,7 +221,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
+                            <img src="assets/images/step-1.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
                             <h5 class="sub-title">Step 1</h5>
@@ -244,7 +244,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
+                            <img src="assets/images/step-2.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
                             <h5 class="sub-title">Step 2</h5>
@@ -269,7 +269,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
                         <div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
+                            <img src="assets/images/step-3.png" alt="">
                         </div>
                         <div class="pricing-header text-center">
                             <h5 class="sub-title">Step 3</h5>
@@ -469,7 +469,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                        <form  id="contact-form" action="assets/contact.php" method="post">
+                        <form  id="contact-form" action="https://formspree.io/f/xgedkoak" method="POST">
                             <div class="form-input mt-15">
                                 <label>Name</label>
                                 <div class="input-items default">
@@ -493,6 +493,7 @@
                             </div> <!-- form input -->
                             <p class="form-message"></p>
                             <div class="form-input rounded-buttons mt-20">
+                                <p id="my-form-status"></p>
                                 <button type="submit" class="main-btn rounded-three">Submit</button>
                             </div> <!-- form input -->
                         </form>
@@ -560,5 +561,38 @@
     <script src="assets/js/main.js"></script>
 
 </body>
+
+<script>
+    var form = document.getElementById("contact-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 
 </html>
