@@ -610,11 +610,11 @@ p {
   left: 0;
   width: 100%;
   z-index: 999;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
+  -webkit-transition: all 0.1s ease-out 0s;
+  -moz-transition: all 0.1s ease-out 0s;
+  -ms-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s; }
   .navbar-area .navbar-brand img {
     max-width: 150px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -633,11 +633,11 @@ p {
       margin: 5px 0;
       display: block;
       position: relative;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
+      -webkit-transition: all 0.1s ease-out 0s;
+      -moz-transition: all 0.1s ease-out 0s;
+      -ms-transition: all 0.1s ease-out 0s;
+      -o-transition: all 0.1s ease-out 0s;
+      transition: all 0.1s ease-out 0s; }
     .navbar-area .navbar .navbar-toggler.active .toggler-icon:nth-of-type(1) {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -697,11 +697,11 @@ p {
           text-transform: uppercase;
           position: relative;
           border-radius: 5px;
-          -webkit-transition: all 0.3s ease-out 0s;
-          -moz-transition: all 0.3s ease-out 0s;
-          -ms-transition: all 0.3s ease-out 0s;
-          -o-transition: all 0.3s ease-out 0s;
-          transition: all 0.3s ease-out 0s;
+          -webkit-transition: all 0.1s ease-out 0s;
+          -moz-transition: all 0.1s ease-out 0s;
+          -ms-transition: all 0.1s ease-out 0s;
+          -o-transition: all 0.1s ease-out 0s;
+          transition: all 0.1s ease-out 0s;
           margin: 14px 0; }
           @media only screen and (min-width: 768px) and (max-width: 991px) {
             .navbar-area .navbar .navbar-nav .nav-item a {
@@ -723,11 +723,11 @@ p {
             background-color: #fff;
             left: 50%;
             bottom: 0;
-            -webkit-transition: all 0.3s ease-out 0s;
-            -moz-transition: all 0.3s ease-out 0s;
-            -ms-transition: all 0.3s ease-out 0s;
-            -o-transition: all 0.3s ease-out 0s;
-            transition: all 0.3s ease-out 0s;
+            -webkit-transition: all 0.1s ease-out 0s;
+            -moz-transition: all 0.1s ease-out 0s;
+            -ms-transition: all 0.1s ease-out 0s;
+            -o-transition: all 0.1s ease-out 0s;
+            transition: all 0.1s ease-out 0s;
             -webkit-transform: translateX(-50%) scaleX(0);
             -moz-transform: translateX(-50%) scaleX(0);
             -ms-transform: translateX(-50%) scaleX(0);
@@ -754,11 +754,11 @@ p {
           border-radius: 5px;
           opacity: 0;
           visibility: hidden;
-          -webkit-transition: all 0.3s ease-out 0s;
-          -moz-transition: all 0.3s ease-out 0s;
-          -ms-transition: all 0.3s ease-out 0s;
-          -o-transition: all 0.3s ease-out 0s;
-          transition: all 0.3s ease-out 0s;
+          -webkit-transition: all 0.1s ease-out 0s;
+          -moz-transition: all 0.1s ease-out 0s;
+          -ms-transition: all 0.1s ease-out 0s;
+          -o-transition: all 0.1s ease-out 0s;
+          transition: all 0.1s ease-out 0s;
           z-index: 99;
           -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
           -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
@@ -817,21 +817,21 @@ p {
             position: relative; }
             .navbar-area .navbar .navbar-nav .nav-item .sub-menu li .sub-nav-toggler {
               color: #121212;
-              -webkit-transition: all 0.3s ease-out 0s;
-              -moz-transition: all 0.3s ease-out 0s;
-              -ms-transition: all 0.3s ease-out 0s;
-              -o-transition: all 0.3s ease-out 0s;
-              transition: all 0.3s ease-out 0s; }
+              -webkit-transition: all 0.1s ease-out 0s;
+              -moz-transition: all 0.1s ease-out 0s;
+              -ms-transition: all 0.1s ease-out 0s;
+              -o-transition: all 0.1s ease-out 0s;
+              transition: all 0.1s ease-out 0s; }
             .navbar-area .navbar .navbar-nav .nav-item .sub-menu li a {
               display: block;
               padding: 8px 24px;
               position: relative;
               color: #121212;
-              -webkit-transition: all 0.3s ease-out 0s;
-              -moz-transition: all 0.3s ease-out 0s;
-              -ms-transition: all 0.3s ease-out 0s;
-              -o-transition: all 0.3s ease-out 0s;
-              transition: all 0.3s ease-out 0s;
+              -webkit-transition: all 0.1s ease-out 0s;
+              -moz-transition: all 0.1s ease-out 0s;
+              -ms-transition: all 0.1s ease-out 0s;
+              -o-transition: all 0.1s ease-out 0s;
+              transition: all 0.1s ease-out 0s;
               border-radius: 0;
               margin: 0 0; }
               .navbar-area .navbar .navbar-nav .nav-item .sub-menu li a i {
@@ -858,11 +858,11 @@ p {
                 background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 100%);
                 background: linear-gradient(to right, #0067f4 0%, #2bdbdc 100%);
                 opacity: 0;
-                -webkit-transition: all 0.3s ease-out 0s;
-                -moz-transition: all 0.3s ease-out 0s;
-                -ms-transition: all 0.3s ease-out 0s;
-                -o-transition: all 0.3s ease-out 0s;
-                transition: all 0.3s ease-out 0s;
+                -webkit-transition: all 0.1s ease-out 0s;
+                -moz-transition: all 0.1s ease-out 0s;
+                -ms-transition: all 0.1s ease-out 0s;
+                -o-transition: all 0.1s ease-out 0s;
+                transition: all 0.1s ease-out 0s;
                 z-index: -1; }
               .navbar-area .navbar .navbar-nav .nav-item .sub-menu li a::before {
                 display: none; }
@@ -872,11 +872,11 @@ p {
               top: 0;
               opacity: 0;
               visibility: hidden;
-              -webkit-transition: all 0.3s ease-out 0s;
-              -moz-transition: all 0.3s ease-out 0s;
-              -ms-transition: all 0.3s ease-out 0s;
-              -o-transition: all 0.3s ease-out 0s;
-              transition: all 0.3s ease-out 0s; }
+              -webkit-transition: all 0.1s ease-out 0s;
+              -moz-transition: all 0.1s ease-out 0s;
+              -ms-transition: all 0.1s ease-out 0s;
+              -o-transition: all 0.1s ease-out 0s;
+              transition: all 0.1s ease-out 0s; }
               @media only screen and (min-width: 768px) and (max-width: 991px) {
                 .navbar-area .navbar .navbar-nav .nav-item .sub-menu li .sub-menu {
                   padding-left: 30px; } }
@@ -936,11 +936,11 @@ p {
       position: relative;
       overflow: hidden;
       color: #fff;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
+      -webkit-transition: all 0.1s ease-out 0s;
+      -moz-transition: all 0.1s ease-out 0s;
+      -ms-transition: all 0.1s ease-out 0s;
+      -o-transition: all 0.1s ease-out 0s;
+      transition: all 0.1s ease-out 0s; }
   .navbar-area.navbar-transparent {
     background: transparent; }
     .navbar-area.navbar-transparent .navbar .navbar-toggler .toggler-icon {
@@ -1006,7 +1006,10 @@ p {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #f4f6f7;
+  background: -webkit-linear-gradient(top, #43cae9 0%, #57B8EC 100%);
+  background: -o-linear-gradient(top, #43cae9 0%, #57B8EC 100%);
+  background: linear-gradient(to bottom, #43cae9 0%, #57B8EC 100%);
+
   height: 100%;
   width: 300px;
   padding-top: 80px;
@@ -1016,11 +1019,11 @@ p {
   -ms-transform: translateX(100%);
   -o-transform: translateX(100%);
   transform: translateX(100%);
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
+  -webkit-transition: all 0.1s ease-out 0s;
+  -moz-transition: all 0.1s ease-out 0s;
+  -ms-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s; }
 
 .sidebar-content .sidebar-logo img{width: 50%;}
 
@@ -1043,19 +1046,20 @@ p {
   .sidebar-right .sidebar-content .sidebar-menu {
     margin-top: 40px; }
     .sidebar-right .sidebar-content .sidebar-menu ul li a {
+
       font-size: 16px;
       line-height: 24px;
       font-weight: 700;
       padding: 11px 16px;
-      color: #121212;
+      color: #fff;
       text-transform: uppercase;
       position: relative;
       border-radius: 5px;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.1s ease-out 0s;
+      -moz-transition: all 0.1s ease-out 0s;
+      -ms-transition: all 0.1s ease-out 0s;
+      -o-transition: all 0.1s ease-out 0s;
+      transition: all 0.1s ease-out 0s;
       border-bottom: 1px solid #cbced1;
       display: block; }
       .sidebar-right .sidebar-content .sidebar-menu ul li a:hover {
@@ -1075,11 +1079,11 @@ p {
       .sidebar-right .sidebar-content .sidebar-social ul li a {
         font-size: 32px;
         color: #57B8EC;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s; }
+        -webkit-transition: all 0.1s ease-out 0s;
+        -moz-transition: all 0.1s ease-out 0s;
+        -ms-transition: all 0.1s ease-out 0s;
+        -o-transition: all 0.1s ease-out 0s;
+        transition: all 0.1s ease-out 0s; }
 
 .overlay-right {
   position: fixed;
@@ -1156,11 +1160,11 @@ p {
     left: 0px;
     opacity: 0;
     z-index: 99;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider-area .bd-example .carousel .carousel-control-prev, .slider-area .bd-example .carousel .carousel-control-next {
         left: 30px;
@@ -1490,11 +1494,11 @@ p {
   position: relative;
   display: inline-block;
   z-index: 5;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.1s ease-out 0s;
+  -moz-transition: all 0.1s ease-out 0s;
+  -ms-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
   cursor: pointer;
   margin: 0 2px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1518,11 +1522,11 @@ p {
     background: linear-gradient(to right, #43cae9 0%, #57B8EC 100%);
     z-index: -1;
     opacity: 0;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s;
     border-radius: 4px; }
   .portfolio-menu ul li:hover, .portfolio-menu ul li.active {
     color: #57B8EC; }
@@ -1535,11 +1539,11 @@ p {
   border-radius: 8px; }
   .single-portfolio .portfolio-image img {
     width: 100%;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
   .single-portfolio .portfolio-image .portfolio-overlay {
     position: absolute;
     top: 0;
@@ -1582,11 +1586,11 @@ p {
     color: #121212;
     font-size: 24px;
     line-height: 30px;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-portfolio .portfolio-text .portfolio-title a {
         font-size: 20px; } }
@@ -1619,35 +1623,35 @@ p {
   background-color: #fff;
   padding: 50px 30px;
   border-radius: 5px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
+  -webkit-transition: all 0.1s ease-out 0s;
+  -moz-transition: all 0.1s ease-out 0s;
+  -ms-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s; }
   .single-services .services-icon i {
     font-size: 34px;
     color: #57B8EC;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
   .single-services .services-content .services-title a {
     font-size: 18px;
     color: #121212;
     margin-top: 25px;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
   .single-services .services-content .text {
     margin-top: 15px;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
   .single-services:hover {
     background-color: #57B8EC;
     -webkit-box-shadow: 0px 5px 30px 0px rgba(254, 81, 150, 0.3);
@@ -2045,11 +2049,11 @@ p {
     font-weight: 600;
     line-height: 25px;
     color: #121212;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-blog .blog-content .blog-title a {
         font-size: 18px; } }
@@ -2223,11 +2227,11 @@ p {
         color: #121212;
         margin-top: 16px;
         font-weight: 500;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s; }
+        -webkit-transition: all 0.1s ease-out 0s;
+        -moz-transition: all 0.1s ease-out 0s;
+        -ms-transition: all 0.1s ease-out 0s;
+        -o-transition: all 0.1s ease-out 0s;
+        transition: all 0.1s ease-out 0s; }
         .footer-area .footer-widget .footer-link ul li a:hover {
           color: #57B8EC; }
 .footer-area .footer-copyright {
@@ -2243,11 +2247,11 @@ p {
     .footer-area .footer-copyright .social li a {
       font-size: 24px;
       color: #6c6c6c;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
+      -webkit-transition: all 0.1s ease-out 0s;
+      -moz-transition: all 0.1s ease-out 0s;
+      -ms-transition: all 0.1s ease-out 0s;
+      -o-transition: all 0.1s ease-out 0s;
+      transition: all 0.1s ease-out 0s; }
       .footer-area .footer-copyright .social li a:hover {
         color: #57B8EC; }
 .footer-area.footer-dark {
@@ -2279,11 +2283,11 @@ p {
   background-color: #57B8EC;
   text-align: center;
   z-index: 99;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.1s ease-out 0s;
+  -moz-transition: all 0.1s ease-out 0s;
+  -ms-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
   display: none; }
   .back-to-top:hover {
     color: #121212;
