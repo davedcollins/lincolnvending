@@ -1227,14 +1227,14 @@ p {
 
 /*===== HEADER TOW =====*/
 .header-hero {
-  height: 850px;
+  height: 600px;
   position: relative; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-hero {
-      height: 700px; } }
+      height: 450px; } }
   @media (max-width: 767px) {
     .header-hero {
-      height: 650px; } }
+      height: 450px; } }
   .header-hero::before {
     position: absolute;
     content: '';
@@ -1308,8 +1308,7 @@ p {
 .about-area {
   position: relative;
   background-color: #f4f6f7;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 130px; }
   .about-area .section-title .title {
     font-size: 44px;
     font-weight: 600;
@@ -1432,8 +1431,8 @@ p {
 /*===== ABOUT 3 =====*/
 .about-area-3 {
   background-color: #f4f6f7;
-  padding-top: 50px;
-  padding-bottom: 100px; }
+  padding-top: 5px;
+  padding-bottom: 50px; }
   .about-area-3 .image {
     width: 100%; }
   .about-area-3 .about-content .sub-title {
