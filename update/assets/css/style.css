@@ -1635,7 +1635,7 @@ p {
     -ms-transition: all 0.1s ease-out 0s;
     -o-transition: all 0.1s ease-out 0s;
     transition: all 0.1s ease-out 0s; }
-  .single-services .services-content .services-title a {
+  .single-services .services-content .services-title {
     font-size: 18px;
     color: #121212;
     margin-top: 25px;
