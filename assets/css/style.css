@@ -3021,7 +3021,7 @@ p {
 .article-area .blog-image {
   width: 100%;
   height: 300px;
-  margin: 20px 0 20px 0;
+  margin: 2rem 0 2rem 0;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -3041,4 +3041,14 @@ p {
   margin-bottom: 2rem;
 }
 
+.article-content ul {
+  margin-left: 2rem;
+  list-style-type: circle;
+}
+
+.article-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
