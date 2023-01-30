@@ -29,13 +29,13 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
     <!--====== Slick css ======-->
-    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
 
     <!--====== Animate css ======-->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
 
     <!--====== Default css ======-->
-    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/default.css">
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -88,16 +88,19 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="#about">HOME</a>
+                                        <a class="page-scroll" href="#about">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#services">SERVICES</a>
+                                        <a class="page-scroll" href="#services">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#what-we-do">GET STARTED</a>
+                                        <a class="page-scroll" href="#what-we-do">Get started</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#contact">CONTACT</a>
+                                        <a class="page-scroll" href="#blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -143,11 +146,11 @@
             </div> <!-- logo -->
             <div class="sidebar-menu">
                 <ul>
-                    <li><a href="#about">HOME</a></li>
+                    <li><a href="#about">Home</a></li>
 
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#what-we-do">GET STARTED</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#what-we-do">Get started</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div> <!-- menu -->
         </div> <!-- content -->
@@ -373,6 +376,45 @@
     <!--====== PRINICNG STYLE EIGHT ENDS ======-->
     
     
+    <!--====== BLOG PART START ======-->
+    
+    <section id="blog" class="blog-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Our Blog</h3>
+                        <p class="text">
+                            Some musings from our team on the latest trends in vending and the future of the industry.
+                        </p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+    
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="blog-image">
+                            <img src="assets/images/blog-1.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">
+                                <a href="/how-vending-machines-make-money.html">How vending machines make you money</a>
+                            </h4>
+                            <span><i class="lni-calendar"></i> Jan 30, 2023</span>
+                            <span><i class="lni-comment-alt"></i> David Collins</span>
+                            <p class="text">
+                                Learn about how we can help your business make money from your vending machines.
+                            </p>
+                            <a class="more" href="/how-vending-machines-make-money.html">Read more</a>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== BLOG PART ENDS ======-->
     
     
     <!--====== CONTACT TWO PART START ======-->
@@ -509,36 +551,36 @@
 </body>
 
 <script>
-    var form = document.getElementById("contact-form");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
-            }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
+const form = document.getElementById('contact-form')
+
+async function handleSubmit (event) {
+  event.preventDefault()
+  const status = document.getElementById('my-form-status')
+  const data = new FormData(event.target)
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+      Accept: 'application/json'
     }
-    form.addEventListener("submit", handleSubmit)
+  }).then(response => {
+    if (response.ok) {
+      status.innerHTML = 'Thanks for your submission!'
+      form.reset()
+    } else {
+      response.json().then(data => {
+        if (Object.hasOwn(data, 'errors')) {
+          status.innerHTML = data.errors.map(error => error.message).join(', ')
+        } else {
+          status.innerHTML = 'Oops! There was a problem submitting your form'
+        }
+      })
+    }
+  }).catch(error => {
+    status.innerHTML = 'Oops! There was a problem submitting your form'
+  })
+}
+form.addEventListener('submit', handleSubmit)
 </script>
 
 </html>
